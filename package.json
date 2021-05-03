@@ -1,15 +1,20 @@
 {
-  "name": "mini_reddit",
-  "private": true,
-  "dependencies": {
-    "@rails/actioncable": "^6.0.0",
-    "@rails/activestorage": "^6.0.0",
-    "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "4.3.0",
-    "turbolinks": "^5.2.0"
+  "name": "mini-reddit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.1.0",
-  "devDependencies": {
-    "webpack-dev-server": "^3.11.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ye-susan/mini-reddit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ye-susan/mini-reddit/issues"
+  },
+  "homepage": "https://github.com/ye-susan/mini-reddit#readme"
 }
