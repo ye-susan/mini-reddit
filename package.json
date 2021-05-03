@@ -33,6 +33,7 @@
     "@mikro-orm/core": "^4.5.4",
     "@mikro-orm/migrations": "^4.5.4",
     "@mikro-orm/postgresql": "^4.5.4",
+    "dotenv": "^8.2.0",
     "pg": "^8.6.0"
   },
   "mikro-orm": {
@@ -41,5 +42,8 @@
       "./src/mikro-orm.config.ts",
       "./dist/mikro-orm.config.js"
     ]
+  },
+  "resolutions": {
+    "knex": "0.21.6"
   }
 }
